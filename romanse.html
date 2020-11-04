@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>I love you bebe</title>
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="C:\Users\Tarik\OneDrive\Desktop\UwU\css\romanse.css">
+	<link rel="shortcut icon" href="C:\Users\Tarik\OneDrive\Desktop\UwU\images\heart.png">
+	<script src="js/slideshow.js"></script>
+</head>
+	
+<body>
+	<div id="header">
+	 <div class="container">
+	  <a id="header-title" href="romanse.html">Romanse</a>
+	  <ul id="header-nav">
+	   <li><a href="index.html">Home</a></li>
+	   <li><a href="gallery.html">Gallery</a></li>
+	   <li><a href="places.html">Places</a></li>
+	  </ul>
+	 </div>
+	</div>
+	
+	<h2 class="w3-center">Romanse Slideshow</h2>
+
+	<div class="w3-content w3-section" style="max-width:100px max-height:100px">
+		<img class="mySlides w3-animate-fading" src="images\romanse\1.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\2.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\3.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\4.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\5.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\6.jpeg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\7.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\8.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\9.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\10.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\11.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\12.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\13.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\14.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\15.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\16.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\17.jpg" style="width:50%">
+		<img class="mySlides w3-animate-fading" src="images\romanse\18.jpg" style="width:50%">
+	</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+		
+		myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 7000); // Change image every 7 seconds
+			}
+	</script>
+	
+	<center><audio controls>
+		<source src="perfect.mp3" type="audio/mpeg">
+	</audio></center>
+	
+	<div id="footer">
+	 <div class="container">
+	  <div class="footer-column">
+	   <p>
+	     <a type="smoothscroll" href="index.html">Home</a>
+		 <a type="smoothscroll" href="gallery.html">Gallery</a>
+		 <a type="smoothscroll" href="places.html">Places</a>
+		 <a type="smoothscroll" href="romanse.html">Romanse</a>
+	   </p>
+	   </div>
+	 
+	  <div class="column">
+	   <h4>I hope you like this</h4>
+	   <p>Happy birthday baby.</p>
+	  </div>
+	 </div>
+	</div>
+</body>	
+</html>

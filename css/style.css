@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+	background-color: #87CEEB;
+	margin: 0;
+	color: blue;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+	background-color: #2f2f2f;
+	height: 150px;
+	line-height: 150px;
+}
+
+#header-title {
+	display: block;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#header-nav {
+	display: block;
+	float: right;
+	margin-top: 0;
+}
+
+#header-nav li {
+	display: inline;
+	padding-left: 20px;
+}
+
+#header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+#header a:hover {
+	color: #222;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+#footer {
+	background-color: #2f2f2f;
+	padding: 50px 0;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+#footer p {
+	color: white;
+}
+
+.column {
+	min-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+a {
+	color: #1abc9c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F6A623;
+}
+
+.post {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+p {
+	line-height: 1.5;
+	color: #2a3166;
+}
+
+
+img {
+	height: auto;
+	width: 900px;
+	margin: 0 auto;
+}
+img.pull-right { margin: 12px 0px 0px 18px; }
+img.pull-left { margin: 12px 18px 0px 0px; }
+
+.footer-column p {
+	display: underline; 
+	padding-right: 20px;
+	letter-spacing: 0.1em;
+}
+
+video-container {
+	border: 50px;
+}
+
+iframe {
+	padding-top: 2px;
+}
+
+@media only screen and (max-width: 460px) {
+   .row { width: auto; }
+}
+
+@media screen and (min-width: 1200px) {
+   .wide .row { max-width: 1180px; }
+}
+
+a, a:visited {
+   text-decoration: none;
+   outline: 0;
+   color: #11ABB0;
+
+   -webkit-transition: color .3s ease-in-out;
+   -moz-transition: color .3s ease-in-out;
+   -o-transition: color .3s ease-in-out;
+   transition: color .3s ease-in-out;
+}
+
+a:hover, a:focus { color: #87CEEB; }
+p a, p a:visited { line-height: inherit; }
+
+#borderimg1 {
+	border: 50px solid transparent;
+	padding: 15px;
+	border-image: url(../images/border.png) 150 round;
+}
